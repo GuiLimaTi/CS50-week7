@@ -1,0 +1,5 @@
+Audio aura can be characterized by features like energy, valence, and danceability. Energy shows how intense and vibrant a track is. Valence measures the degree to which the music sounds positive or pleasant for a listener. Danceability feature describes a track's suitability for dancing. Based on these features, it is possible to make conclusions about the kind of music an individual listens to.
+
+Still, this approach is quite inaccurate because it does not reflect people's true tastes. Usually, users prefer to listen to a variety of genres that suit their current emotional state or situation. Therefore, a certain person may like quiet tracks during one period of time but energetic ones at some other time. Simplifying all preferences to several numbers would be too limiting.
+
+Instead, a better method is to use a wider list of characteristics and examine a person's behavior when listening to music. Features like genres, lyrics, skips, and likes can help reveal users' music preferences more effectively. Machine learning algorithms may also prove useful in analyzing listeners' behavior.
