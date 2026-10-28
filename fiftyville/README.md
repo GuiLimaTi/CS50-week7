@@ -22,7 +22,7 @@ The goal was to identify the thief, the accomplice and the city the thief escape
 | File | Purpose |
 |---|---|
 | `log.sql` | Every query I ran, in order, organised by step with comments |
-| `answers.txt` | Final answers required by the problem set |
+| `answers.txt` | Answers withheld, in line with CS50's academic honesty policy |
 
 ## Key concepts
 
