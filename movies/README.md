@@ -1,42 +1,20 @@
-# 🎬 CS50 Week 7 – Movies (SQL)
+# Movies – SQL Queries
 
-This project is part of Harvard's CS50 course and focuses on querying and analyzing relational databases using SQL.
+Thirteen SQL queries on an IMDb-style database of movies, people and ratings. Part of [CS50x Week 7](..).
 
-The dataset is based on an IMDb-style database containing information about movies, actors, directors, and ratings.
+**Language:** SQL (SQLite)
 
----
+## Overview
 
-## 📌 Project Overview
+The `movies.db` database links five tables: `movies`, `people`, `stars`, `directors` and `ratings`. Each `.sql` file answers one question, many of which need several tables joined together.
 
-The objective of this problem set is to extract meaningful insights from a relational database by writing SQL queries across multiple interconnected tables.
+## Files
 
-The database includes the following tables:
+| File | Purpose |
+|---|---|
+| `1.sql` – `13.sql` | One query per question in the problem set |
 
-- `movies` – movie titles and release years  
-- `people` – actors and directors  
-- `stars` – relationship between actors and movies  
-- `directors` – relationship between directors and movies  
-- `ratings` – movie ratings and votes  
-
----
-
-## 🛠️ Skills & Concepts
-
-This project demonstrates practical SQL skills used in data analysis:
-
-- **Data retrieval:** `SELECT`
-- **Filtering data:** `WHERE`
-- **Sorting results:** `ORDER BY`
-- **Limiting output:** `LIMIT`
-- **Aggregation:** `COUNT`, `AVG`
-- **Pattern matching:** `LIKE`
-- **Subqueries:** nested queries for complex logic
-- **JOIN operations:** combining multiple tables
-- **Relational thinking:** understanding connections between entities
-
----
-
-## 📊 Example Query
+## Example
 
 ```sql
 SELECT movies.title
@@ -44,3 +22,14 @@ FROM movies
 JOIN ratings ON movies.id = ratings.movie_id
 ORDER BY ratings.rating DESC
 LIMIT 5;
+```
+
+## How to run
+
+```bash
+sqlite3 movies.db < 1.sql
+```
+
+## Key concepts
+
+Multi-table `JOIN`s, subqueries, `COUNT` and `AVG`, `ORDER BY`, `LIMIT` and reasoning about relationships between entities.
